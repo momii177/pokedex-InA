@@ -1,7 +1,5 @@
 A Pokédex application built with Laravel and Next.js.
-The backend fetches and aggregates Pokémon data from PokeAPI, while the frontend displays it in a scrollable layout with Pokémon filter (name) search bar and banners.
-
-See https://pokeapi.co/docs/v2 for Poke API integratation
+The backend fetches and aggregates Pokémon data from [PokeAPI](https://pokeapi.co/docs/v2), while the frontend displays it in a scrollable layout with a search bar and banners.
 
 Project Structure:-
 Backend: Laravel
@@ -11,7 +9,7 @@ Prerequisites
 Make sure you have installed:
 PHP >= 8.2 (for Laravel 12)
 Composer >= 2.8.11 (for PHP dependencies)
-Node.js >= npm 11.4.2 (for Next.js)
+Node.js >= 15.5.4 and npm 11.4.2 (for Next.js)
 Git (to clone repository)
 
 Backend Installation Guide:

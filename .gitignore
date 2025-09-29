@@ -1,0 +1,13 @@
+# Laravel
+/backend/vendor
+/backend/node_modules
+/backend/.env
+/backend/storage/*.key
+
+# Next.js
+/frontend/.next
+/frontend/node_modules
+
+# General
+.DS_Store
+*.log

@@ -3,11 +3,74 @@
 /backend/node_modules
 /backend/.env
 /backend/storage/*.key
+/backend/*.log
+/backend/.DS_Store
+/backend/.env.backup
+/backend/.env.production
+/backend/.phpactor.json
+/backend/.phpunit.result.cache
+/backend/.fleet
+/backend/.idea
+/backend/.nova
+/backend/.phpunit.cache
+/backend/.vscode
+/backend/.zed
+/backend/auth.json
+/backend/public/build
+/backend/public/hot
+/backend/public/storage
+/backend/storage/pail
+/backend/Homestead.json
+/backend/Homestead.yaml
+/backend/Thumbs.db
+
 
 # Next.js
-/frontend/.next
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
 /frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.*
+/frontend/.yarn/*
+/frontend/!.yarn/patches
+/frontend/!.yarn/plugins
+/frontend/!.yarn/releases
+/frontend/!.yarn/versions
+
+# testing
+/frontend/overage
+
+# next.js
+/frontend/.next/
+/frontend/node_modules
+/frontend/out/
+
+# production
+/frontend/build
+
+# misc
+/frontend/.DS_Store
+/frontend/*.pem
+
+
+# debug
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/frontend/.env*
+
+# vercel
+/frontend/.vercel
+
+# typescript
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
 
 # General
 .DS_Store
 *.log
+*.pem
